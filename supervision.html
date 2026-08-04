@@ -6,8 +6,43 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.supervision .spotlights > section > .image {
+				width: 20%;
+			}
+
+			.supervision .spotlights > section > .content {
+				width: 80%;
+			}
+
+			@media screen and (max-width: 1680px) {
+				.supervision .spotlights > section > .image {
+					width: 25%;
+				}
+
+				.supervision .spotlights > section > .content {
+					width: 75%;
+				}
+			}
+
+			@media screen and (max-width: 1280px) {
+				.supervision .spotlights > section > .image {
+					width: 30%;
+				}
+
+				.supervision .spotlights > section > .content {
+					width: 70%;
+				}
+			}
+
+			@media screen and (max-width: 980px) {
+				.supervision .spotlights > section > .image {
+					width: 100%;
+				}
+			}
+		</style>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload supervision">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
