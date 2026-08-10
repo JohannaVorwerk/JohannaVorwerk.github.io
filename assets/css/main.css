@@ -3952,20 +3952,20 @@ input, select, textarea {
 		}
 	/* Desktop navigation */
 	.desktop-nav{
-		display:flex;
+		display:flex !important;
 		justify-content: flex-end;
 		align-items: center;
 	}
 	.mobile-nav{
-		display:none;
+		display:none !important;
 	}
 
 	@media screen and (max-width: 980px) {
 		.desktop-nav{
-			display:none;
+			display:none !important;
 		}
 		.mobile-nav{
-			display:block;
+			display:none !important;
 		}
 	}
 	.desktop-nav{
