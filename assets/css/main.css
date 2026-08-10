@@ -3950,3 +3950,19 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+	/* Desktop navigation */
+	.desktop-nav{
+		display:flex;
+	}
+	.mobile-nav{
+		display:none;
+	}
+
+	@media screen and (max-width: 980px) {
+		.desktop-nav{
+			display:none;
+		}
+		.mobile-nav{
+			display:block;
+		}
+	}
