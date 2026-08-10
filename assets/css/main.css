@@ -3955,9 +3955,11 @@ input, select, textarea {
 		display:flex !important;
 		justify-content: flex-end;
 		align-items: center;
+		flex-grow : 1;
 	}
 	.mobile-nav{
 		display:none !important;
+		flex-grow : 0;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -3965,15 +3967,10 @@ input, select, textarea {
 			display:none !important;
 		}
 		.mobile-nav{
-			display:none !important;
+			display:flex !important;
 		}
 	}
-	.desktop-nav{
-		flex-grow : 1;
-	}
-	.mobile-nav{
-		flex-grow : 0;
-	}
+	
 
 
 
