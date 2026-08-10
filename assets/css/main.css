@@ -3953,6 +3953,8 @@ input, select, textarea {
 	/* Desktop navigation */
 	.desktop-nav{
 		display:flex;
+		justify-content: flex-end;
+		align-items: center;
 	}
 	.mobile-nav{
 		display:none;
@@ -3966,3 +3968,12 @@ input, select, textarea {
 			display:block;
 		}
 	}
+	.desktop-nav{
+		flex-grow : 1;
+	}
+	.mobile-nav{
+		flex-grow : 0;
+	}
+
+
+
