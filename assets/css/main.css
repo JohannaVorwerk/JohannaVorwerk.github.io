@@ -3971,6 +3971,32 @@ input, select, textarea {
 		}
 	}
 	
+	.student{
+		display: flex;
+		gap: 2em;
+		margin-bottom: 4em;
+		align-items: flex-start;
+	}
+
+	.student-photo{
+		width: 160px;
+		flex-shrink: 0;
+		border-radius: 4px;
+	}
+
+	.student-content{
+		flex: 1;
+	}
+
+	@media screen and (max-width: 736px) {
+		.student{
+			flex-direction: column;
+		}
+		.student-photo{
+			width: 200px;
+		}
+	}
+
 
 
 
